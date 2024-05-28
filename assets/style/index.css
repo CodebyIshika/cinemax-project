@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Search Movie */
+.intro {
+    margin-bottom: 30px;
+}
+
+.intro p {
+    margin-top: 5px;
+}
+
+input {
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #2a2a2b;
+    color: #ededed;
+    margin-right: 10px;
+    font-size: 15px;
+}
+  
+.btn-search {
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #7b0fff;
+    color: #fff;
+    cursor: pointer;
+}
+  
+.btn-search:hover {
+    background-color: #6800e7;
+}
+
+/* dropdown */
+.dropdown {
+    position: absolute;
+    background-color: #fff;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dropdown.visible {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    text-align: left;
+}
+
+.dropdown-item:hover {
+    background-color: #7b0fff;
+    color: white;
+}
+
+.dropdown-item.no-click {
+    pointer-events: none;
+    color: grey;
+}
+
+/* Movie Info */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    width: 70%; 
+}
+
+.movie-img img {
+    height: 300px;
+    width: 180px;
+    margin-left: 50px;
+}
+
+.detail {
+    display: flex; 
+    flex-direction: column; 
+    height: 300px;
+    padding: 5px;
+}
+
+.title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fa-circle {
+    display: none;
+    font-size: 5px;
+    color: #0fff7b;
+    line-height: 19px;
+}
+
+.title, .time, .summary, .genres {
+    margin-top: 7px;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;  
+}
+
+.year, .duration {
+    opacity: 0.7;
+}
+
+.summary {
+    text-align: left;
+    font-size: 17px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+.genres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.genre-tag {
+    margin-right: 10px; 
+    padding: 5px 10px; 
+    border-radius: 15px; 
+    background-color: rgb(42, 42, 43, 0.7);
+    color: #ededed;
+    font-size: 14px;
+    border: 1px solid #e7d4ff;
+    opacity: 0.8;
+}
+

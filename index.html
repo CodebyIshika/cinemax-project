@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cinemax</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&display=swap"
+    />
+    <link 
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="./assets/style/index.css" media="all" />
+    <link rel="stylesheet" href="./assets/style/reset.css" media="all" />
+    <script src="./assets/script/index.js" type="module"></script>
+  </head>
+  <body>
+    <div class="container index">
+        <div class="movies">
+            <div class="intro">
+                <h1>CINEMAX</h1>
+                <p>Your favourite movies are here</p>
+            </div>
+            <div class="search">
+                <input type="text" class="searchInput" placeholder="Search">
+                <button class="btn-search">FIND MOVIE</button>
+                <div class="dropdown">
+                    <!-- Search results will be appended here -->
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <div class="movie-img"></div>
+            <div class="detail">
+                <p class="title"></p>
+                <div class="time">
+                    <p class="year"></p>
+                    <i class="fa-solid fa-circle"></i>
+                    <p class="duration"></p>
+                </div>
+                <p class="summary"></p>
+                <div class="genres"></div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
