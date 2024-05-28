@@ -18,21 +18,23 @@
 }
 
 input {
-    height: 35px;
-    width: 350px;
+    height: 38px;
+    width: 380px;
     border-radius: 5px;
     padding: 8px;
+    line-height: 38px;
     background-color: #2a2a2b;
     color: #ededed;
     margin-right: 10px;
-    font-size: 15px;
+    font-size: 17px;
 }
   
 .btn-search {
-    height: 35px;
+    height: 38px;
     width: 110px;
     border-radius: 5px;
     font-size: 14px;
+    line-height: 38px;
     background-color: #7b0fff;
     color: #fff;
     cursor: pointer;
@@ -148,4 +150,6 @@ input {
     border: 1px solid #e7d4ff;
     opacity: 0.8;
 }
+
+
 
