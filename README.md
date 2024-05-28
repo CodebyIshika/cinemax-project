@@ -16,4 +16,4 @@ such as poster, year, duration, summary, and genres.
 3. Click on a movie title from the dropdown menu or press Enter to search.
 4. The application will display details of the selected movie.
 
-[Click here](https://example.com) to check my application.
+[Click here](https://codebyishika.github.io/cinemax-project/) to check my application.
